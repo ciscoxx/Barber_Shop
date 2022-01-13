@@ -1,0 +1,18 @@
+.blog-nav{
+    display: flex;
+    background: $color-eerie-black;
+    height: 96px;
+    color: $color-white;
+    &__logo-nav{
+        width: 81px;
+        height: 34px;
+        @media screen and(min-width: 768px) {
+            width: 78px;
+            height: 45px;
+        }
+    }
+
+   // &nav{
+   //     justify-items: center;
+   // }
+}

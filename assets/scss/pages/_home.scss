@@ -1,0 +1,24 @@
+.tips{
+width: 10%;
+position: relative;
+    &__img{
+        width: 100%;
+        position: absolute; 
+
+    }
+    &fas{
+        color: $color-fuzzy-wuzzy;
+    }
+
+    &h1{
+        position: relative;
+        top: 100px;
+    left: 30px;
+    }
+}
+
+.__img{
+    position: absolute;
+}
+
+
